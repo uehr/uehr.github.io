@@ -4,14 +4,16 @@ import Headline from '../atoms/headline.js';
 
 function Section(props) {
     return (
-        <div className="Section">
-            {props.headline.image &&
+        <div className={`Section ${props.is_first ? "" : "section-not-first"}`} >
+            {
+                props.headline.image &&
                 <Headline
                     title={props.headline.title}
                     image={props.headline.image}
                 />
             }
-            {props.headline.fontawesome &&
+            {
+                props.headline.fontawesome &&
                 <Headline
                     title={props.headline.title}
                     fontawesome={props.headline.fontawesome}
@@ -23,7 +25,7 @@ function Section(props) {
                 }
                 {props.body}
             </div>
-        </div>
+        </div >
     );
 }
 
