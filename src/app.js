@@ -19,7 +19,7 @@ function App() {
         image={my_icon}
         body={
           <p className="text-center">
-            オプティム社エンジニア / N高等学校OB / 2002年沖縄県生れ
+            オプティム社エンジニア / N高等学校OB / 2002年沖縄県生まれ
           </p>
         }
       />
