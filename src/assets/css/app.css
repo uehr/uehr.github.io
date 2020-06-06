@@ -28,3 +28,38 @@ body {
 .light-theme-color {
   color: var(--main-light-theme-color);
 }
+
+.sns-link {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+}
+a::before,
+a::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: var(--main-dark-bg-color);
+  transition: .3s;
+}
+a::before {
+  top: 0;
+  left: 0;
+}
+a::after {
+  bottom: 0;
+  right: 0;
+}
+a:hover::before,
+a:hover::after {
+  width: 100%;
+}
