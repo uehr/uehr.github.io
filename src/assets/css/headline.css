@@ -1,5 +1,6 @@
 .Headline {
     --headline-spacing: 0.8rem;
+    font-family: "Lato", sans-serif;
 }
 
 .headline-body {
@@ -19,7 +20,7 @@
     width: 0.8em;
     margin: 0;
     margin-right: var(--headline-spacing);
-    border-radius: 1.5rem;
+    border-radius: 30%;
     border: var(--main-dark-bg-color) 1px solid;
     vertical-align: middle;
 }

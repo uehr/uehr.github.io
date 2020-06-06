@@ -1,0 +1,17 @@
+.section-body {
+    width: 80vw;
+    min-width: 60em;
+    margin: auto;
+    margin-top: 4em;
+    text-align: left;
+    padding: 0 2em;
+}
+
+.section-image {
+    height: 20em;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    margin-bottom: 2em;
+    box-shadow: 0.1em 0.1em 2em;
+}

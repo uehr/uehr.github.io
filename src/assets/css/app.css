@@ -5,7 +5,6 @@
     --main-light-theme-color: #00e091;
     --main-dark-font-color: #282c34;
     --main-dark-theme-color: #1aac5d;
-    --title-spacing: 0.5rem;
 }
 
 .App {
@@ -19,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Noto+Sans+JP&display=swap');
 
 body {
-    font-family: "Lato", "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 .dark-theme-color {
