@@ -1,0 +1,25 @@
+.Headline {
+    --headline-spacing: 0.8rem;
+}
+
+.headline-body {
+    margin: 0;
+    display: inline-block;
+    font-size: 6em;
+    text-align: center;
+    letter-spacing: var(--headline-spacing);
+    vertical-align: middle;
+}
+
+.headline-fontawesome {
+    margin-right: var(--headline-spacing);
+}
+
+.headline-image {
+    width: 0.8em;
+    margin: 0;
+    margin-right: var(--headline-spacing);
+    border-radius: 1.5rem;
+    border: var(--main-dark-bg-color) 1px solid;
+    vertical-align: middle;
+}
