@@ -29,11 +29,6 @@ body {
   color: var(--main-light-theme-color);
 }
 
-.sns-link {
-  display: inline-block;
-  margin: 0 2rem;
-}
-
 .sns-link-text {
     font-size: 4rem;
 }

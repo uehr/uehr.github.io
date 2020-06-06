@@ -55,7 +55,7 @@ function App() {
         }
         body={
           <div className="sns-links text-center">
-            <div className="sns-link">
+            <div className="d-inline-block mx-3">
               <SNSLink
                 link="https://twitter.com/uehr37"
                 fontawesome={["fab", "twitter"]}
@@ -63,7 +63,7 @@ function App() {
                 color="#1DA1F2"
               />
             </div>
-            <div className="sns-link">
+            <div className="d-inline-block mx-3">
               <SNSLink
                 link="https://github.com/uehr"
                 fontawesome={["fab", "github"]}
@@ -71,7 +71,7 @@ function App() {
                 color="#24292E"
               />
             </div>
-            <div className="sns-link">
+            <div className="d-inline-block mx-3">
               <SNSLink
                 link="https://qiita.com/uehr"
                 fontawesome={["fas", "feather-alt"]}
