@@ -5,6 +5,7 @@
     --main-light-theme-color: #00e091;
     --main-dark-font-color: #282c34;
     --main-dark-theme-color: #1aac5d;
+    --title-spacing: 0.5rem;
 }
 
 .App {

@@ -1,20 +1,16 @@
-.Name {
-    --spacing: 0.5rem;
-}
-
 #name {
     margin: 0;
     display: inline-block;
     font-size:6em;
     text-align:center;
-    letter-spacing: var(--spacing);
+    letter-spacing: var(--title-spacing);
     vertical-align: middle;
 }
 
 #icon {
     width: 5em;
     margin: 0;
-    margin-right: var(--spacing);
+    margin-right: var(--title-spacing);
     border-radius: 1.5rem;
     border: var(--main-dark-bg-color) 1px solid;
     vertical-align: middle;
