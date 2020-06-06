@@ -37,6 +37,10 @@ body {
     font-size: 3.5rem;
 }
 
+.p-large {
+  font-size: 3.5rem;
+}
+
 a:hover {
   text-decoration: none;
 }
