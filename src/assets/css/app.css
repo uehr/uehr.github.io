@@ -10,7 +10,7 @@
 .App {
     text-align: center;
     background-color: var(--main-light-bg-color);
-    height: 100vh;
+    height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
