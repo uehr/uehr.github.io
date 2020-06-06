@@ -108,26 +108,6 @@ function App() {
           </div>
         }
       />
-      <Section
-        headline={
-          {
-            "title": "OS",
-            "fontawesome": ["fas", "laptop-code"]
-          }
-        }
-        body={
-          <div className="text-center">
-            <p className="d-inline-block mx-3 os">
-              <FontAwesomeIcon icon={["fab", "ubuntu"]} /> Ubuntu
-            </p>
-            <p className="d-inline-block mx-3 os">
-              <FontAwesomeIcon icon={["fab", "apple"]} /> Mac
-            </p>
-            <p className="d-inline-block mx-3 os">
-              <FontAwesomeIcon icon={["fab", "windows"]} /> Windows</p>
-          </div>
-        }
-      />
     </div>
   );
 }
