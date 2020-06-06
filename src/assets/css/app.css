@@ -34,6 +34,14 @@ body {
   margin: 0 2rem;
 }
 
+.sns-link-text {
+    font-size: 4rem;
+}
+
+.os {
+    font-size: 3.5rem;
+}
+
 a:hover {
   text-decoration: none;
 }
