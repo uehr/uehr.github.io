@@ -13,7 +13,7 @@
 }
 
 .headline-fontawesome {
-    margin-right: var(--headline-spacing);
+    margin-right: calc(var(--headline-spacing) + 1rem);
     font-size: 4rem;
 }
 
