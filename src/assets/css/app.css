@@ -1,0 +1,30 @@
+:root {
+    --main-light-bg-color:#f4f5f7;
+    --main-dark-bg-color: #282c34;
+    --main-light-font-color: white;
+    --main-light-theme-color: #00e091;
+    --main-dark-font-color: #282c34;
+    --main-dark-theme-color: #1aac5d;
+}
+
+.App {
+    text-align: center;
+    background-color: var(--main-light-bg-color);
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Noto+Sans+JP&display=swap');
+
+body {
+    font-family: "Lato", "Noto Sans JP", sans-serif;
+}
+
+.dark-theme-color {
+  color: var(--main-dark-theme-color);
+}
+
+.light-theme-color {
+  color: var(--main-light-theme-color);
+}
