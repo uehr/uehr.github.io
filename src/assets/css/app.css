@@ -29,6 +29,10 @@ body {
   color: var(--main-light-theme-color);
 }
 
+.dark-bg-color {
+  background-color: var(--main-dark-bg-color);
+}
+
 .p-large {
   font-size: 3.5rem;
 }

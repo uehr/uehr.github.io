@@ -8,12 +8,11 @@
 }
 
 .section-image {
-    height: 20em;
+    height: 25rem;
     display: block;
     margin: auto;
     border-radius: 100%;
-    margin-bottom: 2rem;
-    box-shadow: 0.1em 0.1em 2em;
+    box-shadow: 0.1rem 0.1rem 2rem;
 }
 
 .section-not-first {
