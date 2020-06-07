@@ -3,6 +3,10 @@
     margin-bottom: 7rem;
 }
 
+.product-name:first-letter {
+    color: var(--main-light-theme-color);
+}
+
 .product-description {
     font-size: 2rem;
 }
