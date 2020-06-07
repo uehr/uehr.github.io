@@ -1,17 +1,22 @@
 .Product {
     width: 100%;
     margin-bottom: 7rem;
-    /* border: solid 0.3rem var(--main-dark-bg-color); */
 }
 
 .product-description {
     font-size: 2rem;
 }
 
+.product-name {
+    border-bottom: solid 0.1rem var(--main-dark-font-color);
+}
+
+.product-techs {
+    padding: 0;
+}
+
 .product-tech {
     font-size: 1.5rem;
-    border-bottom: solid 1px var(--main-dark-bg-color);
-    padding: 0 1rem;
 }
 
 .product-link {
