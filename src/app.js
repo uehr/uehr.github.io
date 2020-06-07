@@ -6,6 +6,7 @@ import SNS from './components/organisms/sns.js'
 import Langs from './components/organisms/langs.js'
 import Hobbies from './components/organisms/hobbies.js'
 import Products from './components/organisms/products.js'
+import Footer from './components/organisms/footer.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Langs />
       <Hobbies />
       <Products />
+      <Footer />
     </div>
   );
 }
