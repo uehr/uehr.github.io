@@ -122,7 +122,7 @@ function App() {
       <Section
         headline={
           {
-            "title": "My Hobbies",
+            "title": "Hobbies",
             "fontawesome": ["fas", "walking"]
           }
         }
