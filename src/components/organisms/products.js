@@ -10,6 +10,8 @@ import ptss_img from "../../assets/img/ptss.png"
 import discord_manage_img from "../../assets/img/discord_manage.png"
 import auction_img from "../../assets/img/auction.png"
 import ahkviwer_img from "../../assets/img/ahkviwer.png"
+import homepage_img from "../../assets/img/homepage.png"
+import old_homepage_img from "../../assets/img/old-homepage.png"
 
 function Products() {
     return (
@@ -22,6 +24,15 @@ function Products() {
             body={
                 <div className="text-center">
                     <div className="text-left d-inline-block">
+                        <Product
+                            name="ホームページ"
+                            repository="uehr.github.io"
+                            link="https://www.uehr.co"
+                            image={homepage_img}
+                            description="React&GhPagesでホームページを再構築"
+                            techs={["React", "Bootstrap", "GitHub Pages"]}
+                        />
+
                         <Product
                             name="Face-blur"
                             repository="face-blur"
@@ -97,6 +108,15 @@ function Products() {
                             youtube_id="UJQ-wbb7_gY"
                             description="ランダムな形状を遺伝的アルゴリズムを用いて指定の形状へ"
                             techs={["Nim"]}
+                        />
+
+                        <Product
+                            name="ホームページ (旧)"
+                            repository="old-homepage"
+                            link="https://www.uehr.co/old-homepage"
+                            image={old_homepage_img}
+                            description="初めて作成したホームページ"
+                            techs={["Jquery", "Bootstrap", "GitHub Pages"]}
                         />
 
                         <Product
