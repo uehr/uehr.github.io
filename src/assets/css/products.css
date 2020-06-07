@@ -71,4 +71,8 @@
     .product-tech {
         padding: 0 0.5rem;
     }
+
+    .product-details {
+        border-left: solid 0.5rem var(--main-dark-bg-color);
+    }
 }
