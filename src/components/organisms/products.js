@@ -54,7 +54,7 @@ function Products() {
                             name="Weekly575"
                             image={weekly575_img}
                             repository="weekly575"
-                            description="ツイッター上でその集に最も良いねを集めた川柳を紹介"
+                            description="ツイッター上でその週に最も良いねを集めた川柳を紹介"
                             techs={["Go", "Heroku", "PostgreSQL"]}
                         />
                         <Product
