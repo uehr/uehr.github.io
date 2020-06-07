@@ -1,0 +1,9 @@
+.experiences {
+    letter-spacing: 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .experiences {
+        letter-spacing: normal;
+    }
+}
