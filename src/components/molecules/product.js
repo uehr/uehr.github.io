@@ -3,12 +3,19 @@ import '../../assets/css/products.css';
 import ProductName from '../atoms/product-name.js'
 import ProductTechs from '../atoms/product-techs.js'
 import ProductVideo from '../atoms/product-video.js'
-import ProductLink from '../atoms/product-link.js'
+import LinkWithIcon from '../atoms/link-with-icon.js'
 import ProductRepository from '../atoms/product-repository.js'
 
 function Product(props) {
     if (props.link) {
-        props.techs.push(<ProductLink link={props.link} />)
+        props.techs.push(
+            <LinkWithIcon
+                link={props.link}
+                link_text_class="product-link"
+                fontawesome={["fas", "external-link-alt"]}
+                text="Link"
+            ></LinkWithIcon>
+        )
     }
     if (props.repository) {
         props.techs.push(<ProductRepository repository={props.repository} />)
