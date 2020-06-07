@@ -13,6 +13,7 @@ function Header() {
             className="header"
             body={
                 <div className="text-center">
+                    <div className="header-bg"></div>
                     <Headline
                         title="uehara"
                         image={site_icon}

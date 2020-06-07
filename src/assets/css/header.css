@@ -1,7 +1,33 @@
+.header {
+    position: relative;
+    padding-top: 25rem;
+}
+
 .header .headline-body {
     border: 0px; /* ヘッダのheadlineは下線を除去 */
 }
 
 .header .section-body{
     margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.header .section-image {
+    z-index: 3;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+}
+
+.header-bg {
+    background-color: var(--main-dark-bg-color);
+    width: 100vw;
+    height: 20rem;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

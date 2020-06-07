@@ -7,6 +7,11 @@
     --main-dark-theme-color: #1aac5d;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
     text-align: center;
     background-color: var(--main-light-bg-color);
