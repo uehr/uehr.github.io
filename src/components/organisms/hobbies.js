@@ -9,7 +9,7 @@ function Hobbies() {
             headline={
                 {
                     "title": "Hobbies",
-                    "fontawesome": ["fas", "walking"]
+                    "fontawesome": ["fas", "heart"]
                 }
             }
             className="hobbies"
