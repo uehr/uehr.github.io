@@ -1,0 +1,9 @@
+.fields .section-body p {
+    letter-spacing: 0.4rem;
+}
+
+@media screen and (max-width: 640px) {
+    .fields .section-body p {
+        letter-spacing: normal;
+    }
+}
