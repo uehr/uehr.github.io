@@ -1,10 +1,7 @@
 .Product {
     width: 100%;
     margin-bottom: 7rem;
-}
-
-.product-name:first-letter {
-    color: var(--main-light-theme-color);
+    /* border: solid 0.3rem var(--main-dark-bg-color); */
 }
 
 .product-description {
@@ -24,28 +21,22 @@
 }
 
 .product-details {
-    width: 90%;
-    border-left: solid 1rem var(--main-dark-bg-color);
-    padding-left: 3rem;
     margin-bottom: 1rem;
 }
 
 .product-view {
     width: 100%;
-    border: 0.1rem solid var(--main-dark-font-color);
     bottom: 0;
 }
 
 .ProductImage {
     margin: 0;
     width: 100%;
-    border: var(--main-dark-bg-color) 1px solid;
 }
 
 .ProductVideo {
     margin: 0;
     padding: 0;
-    border: var(--main-dark-bg-color) 1px solid;
     position: relative;
     width: 100%;
 }
@@ -70,9 +61,5 @@
 @media screen and (max-width: 640px) {
     .product-tech {
         padding: 0 0.5rem;
-    }
-
-    .product-details {
-        border-left: solid 0.5rem var(--main-dark-bg-color);
     }
 }

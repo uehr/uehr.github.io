@@ -17,11 +17,6 @@ function Product(props) {
 
     return (
         <div className="Product text-center align-top">
-            <div className="product-details text-left">
-                <ProductName name={props.name} link={props.link} repository={props.repository} />
-                <p className="product-description align-top">{props.description}</p>
-                <ProductTechs techs={props.techs} />
-            </div>
             <div className="product-view text-left">
                 {props.image &&
                     <ProductImage image={props.image} />
@@ -29,6 +24,11 @@ function Product(props) {
                 {props.youtube_id &&
                     <ProductVideo youtube_id={props.youtube_id} />
                 }
+            </div>
+            <div className="product-details text-left">
+                <ProductName name={props.name} link={props.link} repository={props.repository} />
+                <p className="product-description align-top">{props.description}</p>
+                <ProductTechs techs={props.techs} />
             </div>
         </div >
     );
