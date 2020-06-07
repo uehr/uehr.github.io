@@ -21,5 +21,6 @@
 @media screen and (max-width: 640px) {
     .section-body {
         width: 95vw;
+        margin-top: 2rem;
     }
 }
