@@ -1,3 +1,7 @@
 .header .headline-body {
     border: 0px; /* ヘッダのheadlineは下線を除去 */
 }
+
+.header .section-body{
+    margin: 0 auto;
+}
