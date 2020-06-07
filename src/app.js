@@ -96,7 +96,7 @@ function App() {
       <Section
         headline={
           {
-            "title": "Programing Langs",
+            "title": "Langs",
             "fontawesome": ["fas", "code"]
           }
         }
