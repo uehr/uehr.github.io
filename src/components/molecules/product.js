@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/css/products.css';
 import InlineTags from '../atoms/inline-tags.js'
-import ProductVideo from '../atoms/product-video.js'
+import YoutubeEmbed from '../atoms/youtube-embed.js'
 import LinkWithIcon from '../atoms/link-with-icon.js'
 import RepositoryLink from '../atoms/repository-link.js'
 
@@ -33,7 +33,11 @@ function Product(props) {
                     <img src={props.image} className="product-image d-inline-block" />
                 }
                 {props.youtube_id &&
-                    <ProductVideo youtube_id={props.youtube_id} />
+                    <YoutubeEmbed
+                        youtube_id={props.youtube_id}
+                        class="product-video"
+                        iframe_class="youtube-frame"
+                    />
                 }
             </div>
             <div className="product-details text-left">
