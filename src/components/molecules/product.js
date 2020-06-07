@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Product(props) {
     return (
-        <div className="Product text-center align-top m-5">
+        <div className="Product text-center align-top">
             <div className="product-details text-left">
                 {props.link &&
                     <ProductName name={props.name} link={props.link} />
