@@ -18,7 +18,7 @@ function Fields() {
                     <div className="text-left p-large d-inline-block">
                         <List body="インフラ: AWS EC2 / EKS / Lambda" />
                         <List body="バック: Spring / Django / Rails / Express" />
-                        <List body="フロント: React / jQuery" />
+                        <List body="フロント: React" />
                     </div>
                 </div>
             }
