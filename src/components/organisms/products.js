@@ -18,6 +18,7 @@ function Products() {
                 "title": "Products",
                 "fontawesome": ["fas", "wrench"]
             }}
+            className="products"
             body={
                 <div className="text-center">
                     <div className="text-left d-inline-block">

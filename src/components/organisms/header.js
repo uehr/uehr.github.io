@@ -10,6 +10,7 @@ function Header() {
         <Section
             is_first={true}
             image={my_icon}
+            className="header"
             body={
                 <div className="text-center">
                     <Headline

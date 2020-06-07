@@ -12,6 +12,7 @@ function Langs() {
                     "fontawesome": ["fas", "code"]
                 }
             }
+            className="langs"
             body={
                 <div className="text-center">
                     <div className="d-inline-block text-left langs-section">

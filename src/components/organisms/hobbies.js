@@ -12,6 +12,7 @@ function Hobbies() {
                     "fontawesome": ["fas", "walking"]
                 }
             }
+            className="hobbies"
             body={
                 <div className="text-center">
                     <p className="d-inline-block mx-3 p-large">

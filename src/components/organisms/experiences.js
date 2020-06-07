@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/section.css';
+import '../../assets/css/experiences.css';
 import Section from '../molecules/section.js';
 import List from '../../components/atoms/list.js'
 
@@ -12,6 +12,7 @@ function Header() {
                     "fontawesome": ["fas", "shoe-prints"]
                 }
             }
+            className="experiences"
             body={
                 <div className="text-center">
                     <div className="d-inline-block text-left">

@@ -12,6 +12,7 @@ function SNS() {
                     "fontawesome": ["fas", "user-friends"]
                 }
             }
+            className="sns"
             body={
                 <div className="sns-links text-center">
                     <div className="d-inline-block mx-3">
