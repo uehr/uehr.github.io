@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/section.css';
+import '../../assets/css/langs.css';
 import Section from '../molecules/section.js';
 import List from '../../components/atoms/list.js'
 
