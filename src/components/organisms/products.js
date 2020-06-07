@@ -32,7 +32,7 @@ function Products() {
 
                         <Product
                             name="Floav"
-                            link="https://www.uehr.co"
+                            link="https://floav.herokuapp.com"
                             image={floav_img}
                             description="対象Twitterユーザが関心のあるワードを抽出するWEBサービス"
                             techs={["Ruby on Rails", "Heroku", "MeCab"]}
