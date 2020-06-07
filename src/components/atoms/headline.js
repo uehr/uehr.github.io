@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Headline(props) {
     return (
-        <div className="Headline">
+        <div className="headline">
             <p className="dark-font-color headline-body">
                 {props.fontawesome &&
                     <FontAwesomeIcon icon={props.fontawesome} className="headline-fontawesome" />

@@ -1,4 +1,4 @@
-.Product {
+.product {
     width: 100%;
     margin-bottom: 7rem;
 }
@@ -34,19 +34,19 @@
     bottom: 0;
 }
 
-.ProductImage {
+.product-image {
     margin: 0;
     width: 100%;
 }
 
-.ProductVideo {
+.product-video {
     margin: 0;
     padding: 0;
     position: relative;
     width: 100%;
 }
 
-.ProductVideo:before {
+.product-video:before {
     content: "";
     display: block;
     padding-top: 56.25% /*16:9固定*/

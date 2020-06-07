@@ -10,7 +10,7 @@ import Footer from './components/organisms/footer.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Experiences />
       <SNS />

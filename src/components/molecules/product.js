@@ -16,7 +16,7 @@ function Product(props) {
     }
 
     return (
-        <div className="Product text-center align-top">
+        <div className="product text-center align-top">
             <div className="product-view text-left">
                 {props.image &&
                     <ProductImage image={props.image} />

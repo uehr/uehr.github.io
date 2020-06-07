@@ -12,7 +12,7 @@ html {
   padding: 0;
 }
 
-.App {
+.app {
     text-align: center;
     background-color: var(--main-light-bg-color);
     height: 100%;
