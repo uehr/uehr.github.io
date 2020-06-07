@@ -23,7 +23,7 @@ function Products() {
                 <div className="text-center">
                     <div className="text-left d-inline-block">
                         <Product
-                            name="face-blur"
+                            name="Face-blur"
                             repository="face-blur"
                             link="https://face-blur.netlify.com"
                             youtube_id="33wjysV_Oxg"
@@ -40,7 +40,7 @@ function Products() {
                             techs={["Ruby on Rails", "Heroku", "MeCab"]}
                         />
                         <Product
-                            name="weekly575"
+                            name="Weekly575"
                             image={weekly575_img}
                             repository="weekly575"
                             description="ツイッター上でその集に最も良いねを集めた川柳を紹介"
