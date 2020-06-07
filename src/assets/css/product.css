@@ -41,7 +41,6 @@
     border: var(--main-dark-bg-color) 1px solid;
     position: relative;
     width: 100%;
-    max-width: 80rem;
     border-top: solid 0.5rem var(--main-dark-bg-color);
 }
 
