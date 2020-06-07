@@ -44,6 +44,7 @@ a {
   position: relative;
   display: inline-block;
   transition: .3s;
+  color: var(--main-light-theme-color);
 }
 a::before,
 a::after {
