@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/products.css';
-import ProductTechs from '../atoms/product-techs.js'
+import InlineTags from '../atoms/inline-tags.js'
 import ProductVideo from '../atoms/product-video.js'
 import LinkWithIcon from '../atoms/link-with-icon.js'
 import RepositoryLink from '../atoms/repository-link.js'
@@ -41,7 +41,11 @@ function Product(props) {
                     {props.name}
                 </p >
                 <p className="product-description align-top">{props.description}</p>
-                <ProductTechs techs={props.techs} />
+                <InlineTags
+                    tags={props.techs}
+                    class="product-techs"
+                    tag_class="product-tech"
+                />
             </div>
         </div >
     );

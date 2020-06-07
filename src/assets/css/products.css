@@ -17,6 +17,7 @@
 
 .product-tech {
     font-size: 1.5rem;
+    margin: 0.5rem;
 }
 
 .product-link {
@@ -60,4 +61,10 @@
     -ms-transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .product-tech {
+        margin: 0.3rem;
+    }
 }
