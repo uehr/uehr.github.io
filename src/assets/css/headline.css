@@ -10,6 +10,8 @@
     text-align: center;
     letter-spacing: var(--headline-spacing);
     vertical-align: middle;
+    padding: 0 1.5rem;
+    border-bottom: 0.2rem solid var(--main-dark-font-color);
 }
 
 .headline-fontawesome {

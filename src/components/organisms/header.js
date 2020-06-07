@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/section.css';
+import '../../assets/css/header.css';
 import Headline from '../atoms/headline.js';
 import Section from '../molecules/section.js';
 import site_icon from "../../assets/img/site-icon.png"
