@@ -4,7 +4,6 @@ import ProductName from '../atoms/product-name.js'
 import ProductTechs from '../atoms/product-techs.js'
 import ProductImage from '../atoms/product-image.js'
 import ProductVideo from '../atoms/product-video.js'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Product(props) {
     return (
