@@ -46,7 +46,7 @@ function App() {
           <div className="text-center">
             <div className="d-inline-block text-left">
               <List body="2015 沖縄海洋ロボコンROV部門 特別賞" />
-              <List body="2016 Google ウェブレンジャープロジェクト 奨励賞" />
+              <List body="2016 Google ウェブレンジャーPJ 奨励賞" />
               <List body="2017 N高等学校 入学" />
               <List body="2018 株式会社ドワンゴ インターン" />
               <List body="2019 GMOペパボ株式会社 インターン" />
