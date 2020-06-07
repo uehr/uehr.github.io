@@ -19,4 +19,4 @@ ReactDOM.render(
   </Router>,
   root);
 
-serviceWorker.unregister();
+serviceWorker.register();
