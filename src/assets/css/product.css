@@ -34,7 +34,6 @@
     max-width: 80rem;
     width: 100%;
     border: var(--main-dark-bg-color) 1px solid;
-    border-top: solid 0.5rem var(--main-dark-bg-color);
 }
 
 .ProductVideo {
