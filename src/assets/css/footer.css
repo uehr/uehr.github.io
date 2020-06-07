@@ -1,0 +1,6 @@
+.footer {
+    background-color: var(--main-dark-bg-color);
+    margin: 0;
+    padding: 1.5rem;
+    color: var(--main-light-font-color);
+}

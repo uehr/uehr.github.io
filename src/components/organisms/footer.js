@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../assets/css/footer.css';
 import Section from '../molecules/section.js';
 
 function Footer() {
