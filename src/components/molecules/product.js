@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../assets/css/products.css';
-import ProductName from '../atoms/product-name.js'
 import ProductTechs from '../atoms/product-techs.js'
 import ProductVideo from '../atoms/product-video.js'
 import LinkWithIcon from '../atoms/link-with-icon.js'
@@ -32,7 +31,9 @@ function Product(props) {
                 }
             </div>
             <div className="product-details text-left">
-                <ProductName name={props.name} link={props.link} repository={props.repository} />
+                <p className="product-name p-large">
+                    {props.name}
+                </p >
                 <p className="product-description align-top">{props.description}</p>
                 <ProductTechs techs={props.techs} />
             </div>
