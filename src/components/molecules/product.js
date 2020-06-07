@@ -3,7 +3,7 @@ import '../../assets/css/products.css';
 import ProductTechs from '../atoms/product-techs.js'
 import ProductVideo from '../atoms/product-video.js'
 import LinkWithIcon from '../atoms/link-with-icon.js'
-import ProductRepository from '../atoms/product-repository.js'
+import RepositoryLink from '../atoms/repository-link.js'
 
 function Product(props) {
     if (props.link) {
@@ -17,7 +17,13 @@ function Product(props) {
         )
     }
     if (props.repository) {
-        props.techs.push(<ProductRepository repository={props.repository} />)
+        props.techs.push(
+            <RepositoryLink
+                repository={props.repository}
+                username="uehr"
+                link_text_class="product-link"
+            />
+        )
     }
 
     return (
