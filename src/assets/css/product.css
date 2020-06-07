@@ -23,6 +23,7 @@
     width: 90%;
     border-left: solid 1rem var(--main-dark-bg-color);
     padding-left: 3rem;
+    margin-bottom: 1rem;
 }
 
 .product-view {
