@@ -102,18 +102,18 @@ function App() {
         }
         body={
           <div className="text-center">
-            <div className="d-inline-block align-top text-left mr-5">
-              <p>業務</p>
+            <div className="d-inline-block text-left langs-section">
+              <p className="p-large">業務</p>
               <List body="Java (Spring)" />
               <List body="Python" />
               <List body="Ruby (Rails)" />
             </div>
 
-            <div className="d-inline-block text-left ml-5 align-top">
-              <p>個人開発</p>
+            <div className="d-inline-block text-left align-top langs-section">
+              <p className="p-large">個人開発</p>
               <List body="Nim" />
               <List body="Go" />
-              <List body="JavaScript (React/Node.js)" />
+              <List body="JS (React/Node.js)" />
               <List body="C/C++" />
             </div>
           </div>
