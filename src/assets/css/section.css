@@ -1,7 +1,7 @@
 .section-body {
     width: 80vw;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 5rem;
     text-align: left;
     padding: 0 2rem;
 }
@@ -21,6 +21,6 @@
 @media screen and (max-width: 640px) {
     .section-body {
         width: 95vw;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 }
