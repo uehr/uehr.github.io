@@ -32,6 +32,7 @@
 
 .product-view {
     width: 100%;
+    border: 0.1rem solid var(--main-dark-font-color);
     bottom: 0;
 }
 
