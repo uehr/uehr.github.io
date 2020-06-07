@@ -1,10 +1,11 @@
-.langs-section {
-  width: 35%;
-  padding: 0;
+.lang-section-body {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 0.6rem;
 }
 
 @media screen and (max-width: 640px) {
-    .langs-section {
-        width: 40%;
+    .lang-section-body {
+        letter-spacing: normal;
     }
 }
