@@ -1,11 +1,11 @@
 .lang-section-body {
     width: 90%;
     margin: auto;
-    letter-spacing: 0.6rem;
+    letter-spacing: 1.5rem;
 }
 
 @media screen and (max-width: 640px) {
     .lang-section-body {
-        letter-spacing: normal;
+        letter-spacing: 1rem;
     }
 }
