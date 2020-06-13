@@ -14,7 +14,7 @@ function Langs() {
             }
             className="langs"
             body={
-                <div className="lang-section-body d-flex flex-row justify-content-around">
+                <div className="lang-section-body d-flex flex-row justify-content-center">
                     <div className="text-left lang-section">
                         <p className="p-large">業務</p>
                         <List body="Java" />
