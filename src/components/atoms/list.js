@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function List(props) {
     return (
-        <p className="list">
+        <div className="list">
             <FontAwesomeIcon icon={["fas", "caret-right"]} className="list-fontawesome light-theme-color" />
             {props.body}
-        </p>
+        </div>
     );
 }
 

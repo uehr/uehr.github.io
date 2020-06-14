@@ -14,16 +14,16 @@ function Langs() {
             }
             className="langs"
             body={
-                <div className="lang-section-body d-flex flex-row justify-content-center">
+                <div className="lang-section-body d-flex flex-row justify-content-center default-font">
                     <div className="text-left lang-section">
-                        <p className="p-large">業務</p>
+                        <div className="large-font">業務</div>
                         <List body="Java" />
                         <List body="Python" />
                         <List body="Ruby" />
                     </div>
 
                     <div className="text-left align-top lang-section">
-                        <p className="p-large">個人開発</p>
+                        <div className="large-font">個人開発</div>
                         <List body="Nim" />
                         <List body="Go" />
                         <List body="JS" />

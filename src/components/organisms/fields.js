@@ -15,7 +15,7 @@ function Fields() {
             className="fields"
             body={
                 <div className="text-center">
-                    <div className="text-left p-large d-inline-block">
+                    <div className="text-left large-font d-inline-block default-font">
                         <List body="インフラ: AWS EC2 / EKS / Lambda" />
                         <List body="バック: Spring / Django / Rails / Express" />
                         <List body="フロント: React" />

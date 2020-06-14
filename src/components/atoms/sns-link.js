@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function SNSLink(props) {
     return (
         <a className="sns-link" href={props.link} style={{ color: props.color }}>
-            <p className="sns-link-text p-large">
+            <div className="sns-link-text large-font">
                 <FontAwesomeIcon icon={props.fontawesome} />
                 {props.text}
-            </p>
+            </div>
         </a>
     );
 }

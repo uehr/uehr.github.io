@@ -5,9 +5,9 @@ function InlineTags(props) {
         <div className={props.class}>
             {
                 props.tags.map(tag => {
-                    return <p className={`${props.tag_class} d-inline-block`}>
+                    return <div className={`${props.tag_class} d-inline-block`}>
                         {tag}
-                    </p>
+                    </div>
                 })
             }
         </div>

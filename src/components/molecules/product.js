@@ -41,10 +41,10 @@ function Product(props) {
                 }
             </div>
             <div className="product-details text-left">
-                <p className="product-name p-large">
+                <div className="product-name large-font">
                     {props.name}
-                </p >
-                <p className="product-description align-top">{props.description}</p>
+                </div>
+                <div className="product-description align-top">{props.description}</div>
                 <InlineTags
                     tags={props.techs}
                     class="product-techs"

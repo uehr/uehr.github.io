@@ -15,18 +15,18 @@ function Hobbies() {
             className="hobbies"
             body={
                 <div className="text-center">
-                    <p className="d-inline-block mx-3 p-large">
+                    <div className="d-inline-block mx-3 large-font">
                         <FontAwesomeIcon icon={["fas", "walking"]} /> 散歩
-            </p>
-                    <p className="d-inline-block mx-3 p-large">
+            </div>
+                    <div className="d-inline-block mx-3 large-font">
                         <FontAwesomeIcon icon={["fas", "heartbeat"]} /> 筋トレ
-            </p>
-                    <p className="d-inline-block mx-3 p-large">
+            </div>
+                    <div className="d-inline-block mx-3 large-font">
                         <FontAwesomeIcon icon={["fas", "book"]} /> 読書
-            </p>
-                    <p className="d-inline-block mx-3 p-large">
+            </div>
+                    <div className="d-inline-block mx-3 large-font">
                         <FontAwesomeIcon icon={["fas", "laptop-code"]} /> 個人開発
-            </p>
+            </div>
                 </div>
             }
         />

@@ -12,15 +12,15 @@ function Header() {
             image={my_icon}
             className="header"
             body={
-                <div className="text-center">
+                <div className="text-center default-font">
                     <div className="header-bg"></div>
                     <Headline
                         title="uehara"
                         image={site_icon}
                     />
-                    <p className="text-center">
+                    <div className="text-center">
                         オプティム社エンジニア / N高等学校OB / 2002年沖縄県生まれ
-                    </p>
+                    </div>
                 </div>
             }
         />
