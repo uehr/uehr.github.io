@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/css/fields.css';
 import Section from '../molecules/section.js';
-import List from '../../components/atoms/list.js'
+import VerticalList from '../../components/molecules/vertical-list.js'
 
 function Fields() {
     return (
@@ -14,12 +14,19 @@ function Fields() {
             }
             className="fields"
             body={
-                <div className="text-center">
-                    <div className="text-left large-font d-inline-block default-font">
-                        <List body="インフラ: AWS EC2 / EKS / Lambda" />
-                        <List body="バック: Spring / Django / Rails / Express" />
-                        <List body="フロント: React" />
-                    </div>
+                <div className="field-section-body d-flex flex-row justify-content-center default-font">
+                    <VerticalList
+                        title="Infrastructure"
+                        contents={["AWS EC2", "AWS EKS", "AWS Lambda"]}
+                    />
+                    <VerticalList
+                        title="Backend"
+                        contents={["Spring", "Django", "Rails", "Express"]}
+                    />
+                    <VerticalList
+                        title="Frontend"
+                        contents={["React", "jQuery"]}
+                    />
                 </div>
             }
         />
