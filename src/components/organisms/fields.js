@@ -17,7 +17,7 @@ function Fields() {
                 <div className="field-section-body d-flex flex-row justify-content-center default-font">
                     <VerticalList
                         title="Infrastructure"
-                        contents={["AWS EC2", "AWS EKS", "AWS Lambda"]}
+                        contents={["AWS EC2", "AWS EKS"]}
                     />
                     <VerticalList
                         title="Backend"
