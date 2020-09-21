@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function RepositoryLink(props) {
     return (
-        < a href={`https://github.com/${props.uesrname}/${props.repository}`} target="_blank">
+        < a href={`https://github.com/${props.username}/${props.repository}`} target="_blank">
             <div className={props.link_text_class}>
                 <FontAwesomeIcon icon={["fab", "github"]} /> repository
             </div>
