@@ -25,6 +25,15 @@ function Products() {
                 <div className="text-center">
                     <div className="text-left d-inline-block">
                         <Product
+                            name="amATO(CLI版)"
+                            repository="amato-cli"
+                            link="https://uehr.s3-ap-northeast-1.amazonaws.com/amato-demo.html"
+                            youtube_id="DgA-smXp2dg"
+                            description="Markdown資料ををリッチなプレゼン資料へ"
+                            techs={["React", "TypeScript", "Node.js", "CLIツール"]}
+                        />
+
+                        <Product
                             name="ホームページ"
                             repository="uehr.github.io"
                             link="https://www.uehr.co"
