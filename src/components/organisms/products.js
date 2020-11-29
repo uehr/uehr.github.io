@@ -29,8 +29,8 @@ function Products() {
                             repository="amato-cli"
                             link="https://uehr.s3-ap-northeast-1.amazonaws.com/amato-demo.html"
                             youtube_id="DgA-smXp2dg"
-                            description="Markdown資料ををリッチなプレゼン資料へ"
-                            techs={["React", "TypeScript", "Node.js", "CLIツール"]}
+                            description="Markdown資料をリッチなプレゼン資料へ"
+                            techs={["TypeScript", "Node.js", "CLIツール"]}
                         />
 
                         <Product
