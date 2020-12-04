@@ -23,7 +23,7 @@ function Langs() {
 
                     <VerticalList
                         title="個人開発"
-                        contents={["Go", "JS (React/Jquery)", "C/C++", "Rust", "Nim"]}
+                        contents={["Go", "JS (React/Jquery)", "TypeScript(Node.js)", "C/C++", "Rust", "Nim"]}
                     />
                 </div>
             }
