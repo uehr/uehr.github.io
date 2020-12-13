@@ -27,6 +27,15 @@ body {
     font-family: "Noto Sans JP", sans-serif;
 }
 
+.app {
+    background-color: #eaf2f6;
+    background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+
 .dark-theme-color {
   color: var(--main-dark-theme-color);
 }
@@ -80,4 +89,30 @@ a::after {
 a:hover::before,
 a:hover::after {
   width: 100%;
+}
+
+/* snow effect背景色変化あり */
+@-webkit-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-moz-keyframes snow {  
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-ms-keyframes snow {  
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@keyframes snow {  
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
 }
