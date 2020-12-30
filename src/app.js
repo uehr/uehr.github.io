@@ -43,8 +43,7 @@ window.onload = () => {
         app.setAttribute("id", "autumn")
     }else if(12 <= month || month <= 2) { //冬
         console.log("winter style")
-        // app.setAttribute("id", "winter")
-        app.setAttribute("id", "autumn")
+        app.setAttribute("id", "winter")
     }
 }
 
