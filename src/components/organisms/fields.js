@@ -17,11 +17,11 @@ function Fields() {
                 <div className="field-section-body d-flex flex-row justify-content-center default-font">
                     <VerticalList
                         title="Infrastructure"
-                        contents={["AWS EC2", "AWS EKS", "AWS ECS"]}
+                        contents={["AWS (EKS,ECS,Lambda,...)", "Heroku", "Kubernetes"]}
                     />
                     <VerticalList
                         title="Backend"
-                        contents={["Spring", "Django", "Rails", "Express"]}
+                        contents={["Spring", "Django", "Rails", "Express", "Echo"]}
                     />
                     <VerticalList
                         title="Frontend"
