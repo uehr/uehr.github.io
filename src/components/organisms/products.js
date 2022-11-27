@@ -13,6 +13,7 @@ import ahkviwer_img from "../../assets/img/ahkviwer.png"
 import homepage_img from "../../assets/img/homepage.png"
 import old_homepage_img from "../../assets/img/old-homepage.png"
 import amena_img from "../../assets/img/amena.png"
+import sekira_img from "../../assets/img/sekira.jpg"
 
 function Products() {
     return (
@@ -25,6 +26,14 @@ function Products() {
             body={
                 <div className="text-center">
                     <div className="text-left d-inline-block">
+                        <Product
+                            name="sekira"
+                            image={sekira_img}
+                            link="https://photo.uehr.co"
+                            description="フォトポートフォリオサイト（Instagram自動連携）"
+                            techs={["AWS Lambda", "Amazon CloudFront", "Amazon S3", "IFTTT"]}
+                        />
+
                         <Product
                             name="amena"
                             image={amena_img}
