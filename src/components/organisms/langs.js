@@ -18,12 +18,12 @@ function Langs() {
                 <div className="lang-section-body d-flex flex-row justify-content-center default-font">
                     <VerticalList
                         title="業務開発"
-                        contents={["Java (Spring)", "Python (Django)", "Ruby (Rails)"]}
+                        contents={["Go", "Java (Spring)", "Python (Django)", "Ruby (Rails)"]}
                     />
 
                     <VerticalList
                         title="個人開発"
-                        contents={["Go", "JS (React/Jquery)", "TypeScript(Node.js)", "C/C++", "Rust", "Nim"]}
+                        contents={["JS (React/Jquery)", "TypeScript(Node.js)", "C/C++", "Rust", "Nim"]}
                     />
                 </div>
             }
