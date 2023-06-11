@@ -14,6 +14,7 @@ import homepage_img from "../../assets/img/homepage.png"
 import old_homepage_img from "../../assets/img/old-homepage.png"
 import amena_img from "../../assets/img/amena.png"
 import sekira_img from "../../assets/img/sekira.jpg"
+import aisan_img from "../../assets/img/aisan.png"
 
 function Products() {
     return (
@@ -26,6 +27,14 @@ function Products() {
             body={
                 <div className="text-center">
                     <div className="text-left d-inline-block">
+                        <Product
+                            name="恋バナAI アイさん"
+                            image={aisan_img}
+                            link="https://vedanet.uehr.co/koibana-ai"
+                            description="LINEで恋愛相談ができるAI アイさん"
+                            techs={["ChatGPT", "AWS Lambda", "LINE BOT"]}
+                        />
+
                         <Product
                             name="sekira"
                             image={sekira_img}

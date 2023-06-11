@@ -19,7 +19,7 @@ function Header() {
                         image={site_icon}
                     />
                     <div className="text-center">
-                        オプティム社エンジニア / N高等学校OB / 2002年沖縄県生まれ
+                        ソフトウェアエンジニア / 沖縄県生まれ
                     </div>
                 </div>
             }
