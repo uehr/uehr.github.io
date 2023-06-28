@@ -30,7 +30,7 @@ function Products() {
                         <Product
                             name="恋バナAI アイさん"
                             image={aisan_img}
-                            link="https://vedanet.uehr.co/koibana-ai"
+                            link="https://pao.uehr.co/koibana-ai"
                             description="LINEで恋愛相談ができるAI アイさん"
                             techs={["ChatGPT", "AWS Lambda", "LINE BOT"]}
                         />
