@@ -32,7 +32,7 @@ function Products() {
                             name="『0→1製品の毎週リリースを支えるGoパッケージ戦略——AI時代のPackage by Feature実践』"
                             image={gocon_img}
                             link="https://gocon.jp/2025/talks/1030797/"
-                            description="GoConference 2025 Talk"
+                            description="Go Conference 2025 Talk"
                             techs={["Golang", "AI駆動"]}
                         />
 
