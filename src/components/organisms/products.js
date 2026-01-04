@@ -15,18 +15,27 @@ import old_homepage_img from "../../assets/img/old-homepage.png"
 import amena_img from "../../assets/img/amena.png"
 import sekira_img from "../../assets/img/sekira.jpg"
 import aisan_img from "../../assets/img/aisan.png"
+import gocon_img from "../../assets/img/gocon2025.png"
 
 function Products() {
     return (
         <Section
             headline={{
-                "title": "Products",
+                "title": "Works",
                 "fontawesome": ["fas", "wrench"]
             }}
             className="products"
             body={
                 <div className="text-center">
                     <div className="text-left d-inline-block">
+                        <Product
+                            name="『0→1製品の毎週リリースを支えるGoパッケージ戦略——AI時代のPackage by Feature実践』"
+                            image={gocon_img}
+                            link="https://gocon.jp/2025/talks/1030797/"
+                            description="GoConference 2025 Talk"
+                            techs={["Golang", "AI駆動"]}
+                        />
+
                         <Product
                             name="恋バナAI アイさん"
                             image={aisan_img}
