@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.3c16502d.chunk.css",
-    "main.js": "/static/js/main.f5709f2f.chunk.js",
-    "main.js.map": "/static/js/main.f5709f2f.chunk.js.map",
+    "main.js": "/static/js/main.74b50266.chunk.js",
+    "main.js.map": "/static/js/main.74b50266.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b2fe0743.js",
     "runtime-main.js.map": "/static/js/runtime-main.b2fe0743.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1d27e220.chunk.js": "/static/js/2.1d27e220.chunk.js",
-    "static/js/2.1d27e220.chunk.js.map": "/static/js/2.1d27e220.chunk.js.map",
+    "static/js/2.0338e627.chunk.js": "/static/js/2.0338e627.chunk.js",
+    "static/js/2.0338e627.chunk.js.map": "/static/js/2.0338e627.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9a9cbb18e509a2aa211ab19037fde17d.js": "/precache-manifest.9a9cbb18e509a2aa211ab19037fde17d.js",
+    "precache-manifest.95bc9058aa9b75ce9cca7f547a2f5ec3.js": "/precache-manifest.95bc9058aa9b75ce9cca7f547a2f5ec3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.3c16502d.chunk.css.map": "/static/css/main.3c16502d.chunk.css.map",
-    "static/js/2.1d27e220.chunk.js.LICENSE.txt": "/static/js/2.1d27e220.chunk.js.LICENSE.txt",
+    "static/js/2.0338e627.chunk.js.LICENSE.txt": "/static/js/2.0338e627.chunk.js.LICENSE.txt",
     "static/media/ahkviwer.png": "/static/media/ahkviwer.1fd484c3.png",
     "static/media/aisan.png": "/static/media/aisan.8f5abec8.png",
     "static/media/amena.png": "/static/media/amena.ca0900f6.png",
     "static/media/auction.png": "/static/media/auction.431f43fb.png",
     "static/media/discord_manage.png": "/static/media/discord_manage.6ffb0e04.png",
     "static/media/floav.png": "/static/media/floav.c42c177e.png",
+    "static/media/gocon2025.png": "/static/media/gocon2025.27b02a18.png",
     "static/media/homepage.png": "/static/media/homepage.f6d8def5.png",
     "static/media/kokun.png": "/static/media/kokun.9c81f7f9.png",
     "static/media/my-icon.png": "/static/media/my-icon.cb675d96.png",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.b2fe0743.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1d27e220.chunk.js",
+    "static/js/2.0338e627.chunk.js",
     "static/css/main.3c16502d.chunk.css",
-    "static/js/main.f5709f2f.chunk.js"
+    "static/js/main.74b50266.chunk.js"
   ]
 }
