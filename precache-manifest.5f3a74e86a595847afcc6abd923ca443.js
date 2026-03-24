@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e02bd3c804ebad0ee36fd49c7c1f34c",
+    "revision": "916a9e1eef776151da4cf063c6729295",
     "url": "/index.html"
   },
   {
-    "revision": "e8e10063239abb7b28b8",
+    "revision": "4cca3dc4de8750487502",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "70a22a02f098ef192fdb",
-    "url": "/static/css/main.3c16502d.chunk.css"
+    "revision": "08bef01e3c2f376d1606",
+    "url": "/static/css/main.0b5dc814.chunk.css"
   },
   {
-    "revision": "e8e10063239abb7b28b8",
-    "url": "/static/js/2.0338e627.chunk.js"
+    "revision": "4cca3dc4de8750487502",
+    "url": "/static/js/2.ec92c127.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.0338e627.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ec92c127.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70a22a02f098ef192fdb",
-    "url": "/static/js/main.297bd25b.chunk.js"
+    "revision": "08bef01e3c2f376d1606",
+    "url": "/static/js/main.8c59dd6f.chunk.js"
   },
   {
     "revision": "edcffb4e586786910335",
     "url": "/static/js/runtime-main.b2fe0743.js"
+  },
+  {
+    "revision": "e45cba888c02fb54065a7852c76fefeb",
+    "url": "/static/media/agentic_engineering_talk.e45cba88.png"
   },
   {
     "revision": "1fd484c3e2c2418e5b254edbd1304307",
