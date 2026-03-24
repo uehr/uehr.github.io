@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/products.css';
+import '../../assets/css/works.css';
 import InlineTags from '../atoms/inline-tags.js'
 import YoutubeEmbed from '../atoms/youtube-embed.js'
 import LinkWithIcon from '../atoms/link-with-icon.js'

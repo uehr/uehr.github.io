@@ -16,8 +16,10 @@ function Header() {
             body={
                 <div className="text-center">
                     <div className="d-inline-block text-left default-font">
+                        <List body="2025 株式会社オプティム 開発マネージャー" />
                         <List body="2020 株式会社オプティム 入社" />
                         <List body="2020 N高等学校 卒業" />
+                        <List body="2019 受託開発（フリーランス）" />
                         <List body="2019 株式会社オプティム インターン" />
                         <List body="2019 GMOペパボ株式会社 インターン" />
                         <List body="2018 株式会社ドワンゴ インターン" />

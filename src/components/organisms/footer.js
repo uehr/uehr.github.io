@@ -5,7 +5,7 @@ import Section from '../molecules/section.js';
 function Footer() {
     return (
         <div className="footer">
-            © 2020 <a target="_blank" href="https://twitter.com/uehr37">uehara</a>
+            © 2026 <a target="_blank" href="https://twitter.com/uehr37">uehara</a>
         </div>
     );
 }

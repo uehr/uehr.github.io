@@ -19,7 +19,7 @@ function Header() {
                         image={site_icon}
                     />
                     <div className="text-center">
-                        ソフトウェアエンジニア / 沖縄県生まれ
+                        ソフトウェアエンジニア / 組織と製品へのAI実装を推進
                     </div>
                 </div>
             }

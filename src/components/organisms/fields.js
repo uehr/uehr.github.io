@@ -21,11 +21,11 @@ function Fields() {
                     />
                     <VerticalList
                         title="Backend"
-                        contents={["Spring", "Django", "Rails", "Express", "Echo"]}
+                        contents={["Go", "Java", "Python", "Ruby(Rails)", "C++", "Rust", "Nim"]}
                     />
                     <VerticalList
                         title="Frontend"
-                        contents={["React", "jQuery"]}
+                        contents={["React", "JavaScript", "TypeScript"]}
                     />
                 </div>
             }
